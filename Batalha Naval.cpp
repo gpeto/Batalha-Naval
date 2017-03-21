@@ -15,11 +15,11 @@ main(void){
 			if(op==2){
 			cout<<"....................BATALHA NAVAL PROJECT 0.1....................\n";
 			cout<<"1. O primeiro a jogar ira escolher a posicao do seu navio, definindo sua linha e coluna.";
-			cout<<"\n2. O segundo jogador irá tentar acertar definindo a linha e coluna do seu tiro.";
+			cout<<"\n2. O segundo jogador irÃ¡ tentar acertar definindo a linha e coluna do seu tiro.";
 			}
 			if(op==3){
-			cout<<"....................Creditos....................";
-			cout<<"\nCriado por: Lucas G. \nImplementado por: \n ADS 2015.02";	
+			cout<<"................................................";
+			cout<<"\n..............................................";	
 			}
 			if(op==1){	//Escolha do jogador 1
 				cout<<"....................BATALHA NAVAL PROJECT 0.1....................\n";
@@ -53,7 +53,7 @@ main(void){
 					if(c>20 || l>20){
 					cout<<"\nTiro fora nao vale! :@  Mala!!\n";
 					}
-			//condição de acerto ou erro
+			//condiÃ§Ã£o de acerto ou erro
 					else if(vet [c][l]==0){
 					cout<<"\nERROU!!!\n";
 					cont--;
